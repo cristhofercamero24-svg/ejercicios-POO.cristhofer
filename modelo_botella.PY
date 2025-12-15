@@ -3,7 +3,7 @@ class Botella:
    
     def __init__(self, material, capacidad, forma, diseno, tapa, grabados):
         self.material = material
-        self.capacidad = Capacidad
+        self.capacidad = capacidad
         self.forma = forma
         self.diseno = diseno
         self.tapa = tapa
@@ -43,3 +43,4 @@ Tapa: {self.tapa}
 Grabados: {self.grabados}
 """
         return info
+
